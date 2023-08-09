@@ -2,3 +2,5 @@
 for i in range(97, 123):
     if (chr(i) != 'q' or chr(i) != 'e'):
         print('{:c}'.format(i), end='')
+    else:
+        continue
